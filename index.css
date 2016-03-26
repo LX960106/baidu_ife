@@ -8,7 +8,7 @@ body{
 }
 li{list-style-type: none;float:left;}
 #main{
-    width:1200px;
+    width:90%;
     min-height:600px;
     margin:0 auto;
     background:#eee;
