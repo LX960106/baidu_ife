@@ -1,0 +1,55 @@
+﻿/*created by FireShots
+ *三栏式布局
+ *
+ */
+body{
+    padding: 20px;
+    font-size: 15px;
+}
+li{list-style-type: none;float:left;}
+#main{
+    width:1200px;
+    min-height:600px;
+    margin:0 auto;
+    background:#eee;
+    border:1px solid #cccccc;
+    padding:20px;
+}
+#center{
+     min-height:600px;
+     margin:0 210px;
+     border:1px solid #A0A0A0;
+     padding:20px;
+ }
+#left{
+    width:160px;
+    height:100px;
+    border:1px solid #A0A0A0;
+    padding:20px;
+    float:left;
+}
+#left .logo{
+    width:100px;
+    height:100px;
+    border:1px solid #A0A0A0;
+    background:url("1.jpg")no-repeat right;
+}
+span{
+    margin-left:110px;
+    margin-top:-100px;
+    position: absolute;
+}
+#right{
+    width:160px;
+    height:600px;
+    border:1px solid #A0A0A0;
+    float:right;
+    padding:20px;
+}
+#right li{
+    width:150px;
+    height:110px;
+    margin-bottom:50px;
+    margin-left:-35px;
+    background:url("1.jpg")no-repeat right;
+}
