@@ -12,11 +12,13 @@
     padding-left: 0px;
     overflow: hidden;}
 #img-show-li{
+    height:100%;
     padding-left: 0px;
     width: 400%;
     overflow: hidden;
 }
 #img-show-li li{
+    height:100%;
     width: 25%;
     overflow: hidden;
     display: inline-block;
